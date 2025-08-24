@@ -1,0 +1,86 @@
+[
+  {
+    "testCaseID": "Sign In-TC01",
+    "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvw@domain.com",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC02",
+    "email": "user@domain",
+    "password": "password123",
+    "expectedResult": "Fail"
+  },
+  {
+    "testCaseID": "Sign In-TC03",
+    "email": "a@b.c",
+    "password": "matkhau123",
+    "expectedResult": "Fail"
+  },
+  {
+    "testCaseID": "Sign In-TC04",
+    "email": "a@a.vn",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC05",
+    "email": "ab@c.vn",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC06",
+    "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuv@domain.com",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC07",
+    "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuv2@domain.com",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC08",
+    "email": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwy@domain.com",
+    "password": "password123",
+    "expectedResult": "Fail"
+  },
+  {
+    "testCaseID": "Sign In-TC09",
+    "email": "tc09@a.vn",
+    "password": "matkhau12",
+    "expectedResult": "Fail"
+  },
+  {
+    "testCaseID": "Sign In-TC10",
+    "email": "tc10@a.vn",
+    "password": "matkhau123",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC11",
+    "email": "tc11@a.vn",
+    "password": "matkhau1234",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC12",
+    "email": "tc12@a.vn",
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC13",
+    "email": "tc13@a.vn",
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedResult": "Success"
+  },
+  {
+    "testCaseID": "Sign In-TC14",
+    "email": "user@domain.com",
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "expectedResult": "Fail"
+  }
+]
