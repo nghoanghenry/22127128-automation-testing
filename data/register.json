@@ -882,7 +882,7 @@
     "state": "Tinh 1",
     "country": "aaaaaaaaa",
     "phone": "0901234567",
-    "expectedResult": "Success"
+    "expectedResult": "Fail"
   },
   {
     "testCaseID": "Sign Up-TC60",
